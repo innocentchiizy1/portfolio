@@ -102,7 +102,6 @@ a {
   text-decoration: none;
 }
 
-
 button {
   cursor: pointer;
   border: none;
@@ -180,7 +179,6 @@ img {
 
   .button {
     padding: 1rem 1.75rem;
-
   }
 
   .button_icon {
@@ -194,9 +192,9 @@ img {
   body {
     margin: 0 0 var(--header-height) 0;
   }
-  .section{
-    padding: 2rem 0 4rem ;
-   }
+  .section {
+    padding: 2rem 0 4rem;
+  }
 
   .section {
     padding: 2rem 0 4rem;

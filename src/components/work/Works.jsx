@@ -5,7 +5,7 @@ import WorkItems from "./WorkItems";
 
 const Works = () => {
   const [item, setItem] = useState({ name: "all" });
-  const [projects, setProjects] = useState(0);
+  const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
 
   useEffect(() => {
@@ -41,7 +41,7 @@ const Works = () => {
         })}
       </div>
       <div className="work_container container grid">
-        {projectsData.map((item) => {
+        {projects.map((item) => {
           return <WorkItems item={item} key={item.id} />;
         })}
       </div>
