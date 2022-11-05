@@ -1,39 +1,43 @@
 import Work1 from "../../assets/work1.jpg";
-import Work2 from  "../../assets/ii.jpeg";
-import Work3 from  "../../assets/ii.jpeg";
+import Work2 from "../../assets/ii.jpeg";
+import Work3 from "../../assets/ii.jpeg";
 import Work4 from "../../assets/work4.jpg";
-import Work5 from  "../../assets/ii.jpeg";
+import Work5 from "../../assets/ii.jpeg";
 
 export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Web design",
+    title: "Food Affairs",
     category: "frontend",
+    link: "https://innocentchiizy1.github.io/food-affairs/",
   },
   {
     id: 2,
     image: Work2,
-    title: "App movil",
+    title: "Vesco",
     category: "frontend",
+    link: "https://innocentchiizy1.github.io/vesco/",
   },
   {
     id: 3,
     image: Work3,
-    title: "Brand design",
+    title: "Reliv- design",
     category: "design",
   },
   {
     id: 4,
     image: Work4,
-    title: "App movil",
+    title: "Shop4less",
     category: "frontend",
+    link: "https://innocentchiizy1.github.io/shop4less/",
   },
   {
     id: 5,
     image: Work5,
-    title: "Web design",
+    title: "Franel-Hair",
     category: "backend",
+    link: "https://www.franellhair.com/products",
   },
 ];
 
