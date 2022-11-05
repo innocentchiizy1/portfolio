@@ -1,12 +1,19 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/ii.jpeg";
-import Work3 from "../../assets/ii.jpeg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/ii.jpeg";
+import Work1 from "../../assets/food.png";
+import Work2 from "../../assets/vesco.png";
+import Work3 from "../../assets/work2.jpg";
+import Work4 from "../../assets/test.jpg";
+import Work5 from "../../assets/Original.png";
 
 export const projectsData = [
   {
     id: 1,
+    image: Work4,
+    title: "Shop4less",
+    category: "frontend",
+    link: "https://innocentchiizy1.github.io/shop4less/",
+  },
+  {
+    id: 3,
     image: Work1,
     title: "Food Affairs",
     category: "frontend",
@@ -20,20 +27,20 @@ export const projectsData = [
     link: "https://innocentchiizy1.github.io/vesco/",
   },
   {
-    id: 3,
+    id: 4,
     image: Work3,
     title: "Reliv- design",
     category: "design",
   },
+  // {
+  //   id: 5,
+  //   image: Work4,
+  //   title: "Shop4less",
+  //   category: "frontend",
+  //   link: "https://innocentchiizy1.github.io/shop4less/",
+  // },
   {
-    id: 4,
-    image: Work4,
-    title: "Shop4less",
-    category: "frontend",
-    link: "https://innocentchiizy1.github.io/shop4less/",
-  },
-  {
-    id: 5,
+    id: 6,
     image: Work5,
     title: "Franel-Hair",
     category: "backend",
