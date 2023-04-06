@@ -13,8 +13,8 @@ const About = () => {
         <div className="about_data">
           <Info />
           <p className="about_description">
-            I am a Frontend web developer with more than 4+ years experience in
-            building responsive and accessible web application and 2+year
+            I am a Frontend web developer with more than 2+ years experience in
+            building responsive and accessible web application and 1+year
             experience in the start-up world working as a freelancer. I
             primarily build front-end views with React framework, for styling i
             use Bootstraps and vanilla CSS. I dabble with some backend using
