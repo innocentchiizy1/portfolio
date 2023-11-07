@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/iiii.jpg";
-import CV from "../../assets/Innocent_Oko_-_Frontend_Developer.pdf";
+import CV from "../../assets/Innocent-Oko-Resume.pdf";
 import Info from "./Info";
 const About = () => {
   return (
@@ -13,8 +13,8 @@ const About = () => {
         <div className="about_data">
           <Info />
           <p className="about_description">
-            I am a Frontend web developer with more than 2+ years experience in
-            building responsive and accessible web application and 1+year
+            I am a Frontend web developer with more than 3+ years experience in
+            building responsive and accessible web application and 2+year
             experience in the start-up world working as a freelancer. I
             primarily build front-end views with React framework, for styling i
             use Bootstraps and vanilla CSS. I dabble with some backend using
